@@ -6,7 +6,7 @@ $factory->define(App\Teacher::class, function (Faker $faker) {
     return [
         'user_id' => null,
         'title' => $faker->jobTitle,
-        'biography' => $faker->paragraph,
+        'biography' => $faker->sentence,
         'website_url' => $faker->url,
     ];
 });
